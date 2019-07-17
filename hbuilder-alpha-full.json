@@ -1,0 +1,22 @@
+{
+    "homepage": "http://www.dcloud.io/hbuilderx.html",
+    "description": "HBuilder-alpha 的 App 开发版，已集成相关插件，开箱即用。",
+    "version": "2.0.7.20190711",
+    "license": "freeware",
+    "url": "https://download.dcloud.net.cn/HBuilderX.2.0.7.20190711-alpha.full.zip",
+    "extract_dir": "HBuilderX",
+    "bin": "HBuilderX.exe",
+    "shortcuts": [
+        [
+            "HBuilderX.exe",
+            "HBuilderX"
+        ]
+    ],
+    "checkver": {
+        "url": "http://www.dcloud.io/hbuilderx.html",
+        "re": "HBuilderX\\.([\\d.]+)\\-alpha.full.zip"
+    },
+    "autoupdate": {
+        "url": "https://download.dcloud.net.cn/HBuilderX.$version-alpha.full.zip"
+    }
+}
