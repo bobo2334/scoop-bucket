@@ -4,6 +4,7 @@
     "version": "2.1.1.20190716",
     "license": "freeware",
     "url": "https://download.dcloud.net.cn/HBuilderX.2.1.1.20190716.zip",
+    "extract_dir": "HBuilderX",
     "bin": "HBuilderX.exe",
     "shortcuts": [
         [
