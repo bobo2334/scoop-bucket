@@ -1,9 +1,10 @@
 {
     "homepage": "http://www.dcloud.io/hbuilderx.html",
-    "description": "HBuilder 是当前最快的HTML开发工具，强大的代码助手帮你快速完成开发，最全的语法库和浏览器兼容性数据让浏览器碎片化不再头痛。",
+    "description": "HX 是轻量编辑器和强大IDE的完美结合体。敏捷的性能，清爽的界面，强大的功能和于一身。",
     "version": "2.1.1.20190716",
     "license": "freeware",
     "url": "https://download.dcloud.net.cn/HBuilderX.2.1.1.20190716.zip",
+    "hash": "d7f7219c01d9d2050e1f1ad280fff2959c572e516cd6171ccb7e013028aa9acc",
     "extract_dir": "HBuilderX",
     "bin": "HBuilderX.exe",
     "shortcuts": [
@@ -13,8 +14,8 @@
         ]
     ],
     "checkver": {
-        "url": "http://www.dcloud.io/hbuilderx.html",
-        "re": "HBuilderX\\.([\\d.]+)\\.zip"
+        "url": "http://www.dcloud.io/docs/HBuilder.json",
+        "re": "HBuilderX\\.(.*)\\.full\\.zip"
     },
     "autoupdate": {
         "url": "https://download.dcloud.net.cn/HBuilderX.$version.zip"
