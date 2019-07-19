@@ -5,6 +5,7 @@
     "license": "freeware",
     "url": "https://www.safe-in-cloud.com/download/19.1.6/SafeInCloud_Setup.msi",
     "hash": "md5:9f59a508dcf594d6de10c688806df528",
+    "extract_dir": "Safe In Cloud",
     "bin": "SafeInCloud.exe",
     "shortcuts": [
         [
