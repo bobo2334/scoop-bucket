@@ -1,0 +1,23 @@
+{
+    "homepage": "http://www.dcloud.io/hbuilderx.html",
+    "description": "HX 是轻量编辑器和强大IDE的完美结合体。敏捷的性能，清爽的界面，强大的功能和于一身。",
+    "version": "2.1.2.20190717-alpha",
+    "license": "freeware",
+    "url": "https://download.dcloud.net.cn/HBuilderX.2.1.2.20190717-alpha.zip",
+    "hash": "e2f79692fe7611db8221e6129e5c79a4cc7908fb6a8506a4e03c242775a9553e",
+    "extract_dir": "HBuilderX",
+    "bin": "HBuilderX.exe",
+    "shortcuts": [
+        [
+            "HBuilderX.exe",
+            "HBuilderX"
+        ]
+    ],
+    "checkver": {
+        "url": "https://update.dcloud.net.cn/hbuilderx/alpha.json",
+        "jp": "$.version"
+    },
+    "autoupdate": {
+        "url": "https://download.dcloud.net.cn/HBuilderX.$version.zip"
+    }
+}
