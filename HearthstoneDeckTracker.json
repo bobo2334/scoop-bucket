@@ -4,7 +4,7 @@
     "version": "1.8.13",
     "license": "freeware",
     "url": "https://github.com/HearthSim/HDT-Releases/releases/download/v1.8.13/HearthstoneDeckTracker-1.8.13-full.nupkg#/dl.7z",
-    "hash": "sha1:1392B59941C1C868C00496C7A522BA8ABBC93585",
+    "hash": "sha1:CC5E39E7CA77B865200BA4D8103E9747FC27C0B7",
     "extract_dir": "lib/net45",
     "bin": "HearthstoneDeckTracker.exe",
     "shortcuts": [
@@ -20,7 +20,7 @@
         "url": "https://github.com/HearthSim/HDT-Releases/releases/download/v$version/HearthstoneDeckTracker-$version-full.nupkg#/dl.7z",
         "hash": {
             "url": "https://github.com/HearthSim/HDT-Releases/releases/download/v$version/RELEASES",
-            "find": "$sha1"
+            "find": "([a-fA-F0-9]{40}) $basename"
         }
     }
 }
