@@ -7,8 +7,10 @@ scoop bucket add bobo2334 https://github.com/bobo2334/scoop-bucket
 ```
 
 ## Updating manifest
+in your `scoop\apps\scoop\current\bin` folder, run the following command:
+
 ```bash
-.\checkver -a safe-in-cloud -d E:\CloudStation\Workspaces\git\scoop-bucket\ -u -f
+.\checkver -a * -d ../../../../buckets/bobo2334
 ```
 
 ## Parameters of checkver.ps1
