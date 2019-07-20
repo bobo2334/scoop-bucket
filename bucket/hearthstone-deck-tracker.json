@@ -20,7 +20,7 @@
         "url": "https://github.com/HearthSim/HDT-Releases/releases/download/v$version/HearthstoneDeckTracker-$version-full.nupkg#/dl.7z",
         "hash": {
             "url": "https://github.com/HearthSim/HDT-Releases/releases/download/v$version/RELEASES",
-            "find": "([a-fA-F0-9]{40}) $basename"
+            "find": "$sha1 $basename"
         }
     }
 }
