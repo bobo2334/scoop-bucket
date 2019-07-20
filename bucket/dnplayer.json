@@ -19,6 +19,7 @@
             "雷电多开器"
         ]
     ],
+    "persist": "vms",
     "checkver": {
         "re": "ldinst_(.*)\\.exe"
     },
