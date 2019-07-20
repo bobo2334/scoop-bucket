@@ -8,7 +8,7 @@ scoop bucket add bobo2334 https://github.com/bobo2334/scoop-bucket
 
 ## Updating manifest
 ```bash
-.\bin\checkver -a * -d .\bucket
+.\bin\checkver -a * -d .\bucket -u
 ```
 
 ## Parameters of checkver.ps1
