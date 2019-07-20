@@ -1,0 +1,28 @@
+{
+    "homepage": "https://www.ldmnq.com/",
+    "description": "雷电模拟器是一款免费的安卓模拟器，能够让你在电脑上畅玩手机游戏。",
+    "version": "3.66",
+    "license": "freeware",
+    "url": "https://dl.softmgr.qq.com/original/game/ldinst_3.66.exe",
+    "hash": "6a32b6b7066b406c890af941810faff33712e422722c07c4b547e8e6690b0b11",
+    "bin": [
+        "dnplayer.exe",
+        "dnmultiplayer.exe"
+    ],
+    "shortcuts": [
+        [
+            "dnplayer.exe",
+            "雷电模拟器"
+        ],
+        [
+            "dnmultiplayer.exe",
+            "雷电多开器"
+        ]
+    ],
+    "checkver": {
+        "re": "ldinst_(.*)\\.exe"
+    },
+    "autoupdate": {
+        "url": "https://dl.softmgr.qq.com/original/game/ldinst_$version.exe"
+    }
+}
