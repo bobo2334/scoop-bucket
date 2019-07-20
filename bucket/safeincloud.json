@@ -2,7 +2,10 @@
     "homepage": "http://www.safe-in-cloud.com/",
     "description": "SafeInCloud Password Manager.",
     "version": "19.1.6",
-    "license": "freeware",
+    "license": {
+        "identifier": "Freeware",
+        "url": "http://www.safe-in-cloud.com/en/license.html"
+    },
     "url": "https://www.safe-in-cloud.com/download/19.1.6/SafeInCloud_Setup.msi",
     "hash": "md5:9f59a508dcf594d6de10c688806df528",
     "extract_dir": "Safe In Cloud",
