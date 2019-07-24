@@ -1,0 +1,26 @@
+{
+    "homepage": "http://hs.blizzard.cn/hsoa/",
+    "description": "Hearthstone Offcial Addon",
+    "version": "1.6.0.3762",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.battlenet.com.cn/zh/legal-cn/eula"
+    },
+    "url": "https://blz.nosdn.127.net/4/hsoa/install/hsoa.client.v1.6.0.3762.exe",
+    "hash": "fa40be9a35d44e316af8c8683bb3b0aa40f8dd89c8e481b4093e25a4497d307e",
+    "extract_dir": "$0",
+    "bin": "HearthstoneOfficialAddon.exe",
+    "shortcuts": [
+        [
+            "HearthstoneOfficialAddon.exe",
+            "炉石传说官方插件"
+        ]
+    ],
+    "checkver": {
+        "url": "https://blz.nosdn.127.net/4/hsoa/install/hsoa-download.json",
+        "re": "hsoa.client.v(.*).exe"
+    },
+    "autoupdate": {
+        "url": "https://blz.nosdn.127.net/4/hsoa/install/hsoa.client.v$version.exe"
+    }
+}
