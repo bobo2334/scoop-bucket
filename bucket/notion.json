@@ -1,0 +1,22 @@
+{
+    "homepage": "https://www.notion.so/",
+    "description": "The all-in-one workspace for your notes, tasks, wikis, and databases.",
+    "version": "1.0.7",
+    "license": "freeware",
+    "url": "https://desktop-release.notion-static.com/Notion%20Setup%201.0.7.exe#/dl.7z",
+    "hash": "",
+    "extract_dir": "$PLUGINSDIR",
+    "installer": {
+        "script": [
+            "Remove-Item \"$dir\\*\" -Exclude 'app-64.7z'",
+            "Expand-7zipArchive \"$dir\\app-64.7z\" \"$dir\" -Removal"
+        ]
+    },
+    "bin": "Notion.exe",
+    "shortcuts": [
+        [
+            "Notion.exe",
+            "Notion"
+        ]
+    ]
+}
