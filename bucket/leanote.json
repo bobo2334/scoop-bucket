@@ -1,0 +1,38 @@
+{
+    "version": "2.6.2",
+    "description": "Leanote Desktop App",
+    "homepage": "https://leanote.com/",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://downloads.sourceforge.net/project/leanote-desktop-app/2.6.2/leanote-desktop-windows-x64-v2.6.2.zip",
+            "hash": "sha1:6e592668a523bd29f76d83cb3cba67fba9b7e72c"
+        },
+        "32bit": {
+            "url": "https://downloads.sourceforge.net/project/leanote-desktop-app/2.6.2/leanote-desktop-windows-ia32-v2.6.2.zip",
+            "hash": "sha1:651a41c7301fbc6805f418729af45b5b784cfccd"
+        }
+    },
+    "persist": "",
+    "bin": "Leanote.exe",
+    "shortcuts": [
+        [
+            "Leanote.exe",
+            "Leanote"
+        ]
+    ],
+    "checkver": {
+        "url": "https://sourceforge.net/projects/leanote-desktop-app/",
+        "regex": "leanote-desktop-windows-x64-v(.*).zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/project/leanote-desktop-app/$version/leanote-desktop-windows-x64-v$version.zip"
+            },
+            "32bit": {
+                "url": "https://downloads.sourceforge.net/project/leanote-desktop-app/$version/leanote-desktop-windows-ia32-v$version.zip"
+            }
+        }
+    }
+}
