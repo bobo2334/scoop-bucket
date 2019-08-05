@@ -6,7 +6,7 @@
         "identifier": "Freeware",
         "url": "http://www.den4b.com/license"
     },
-    "url": "http://www.den4b.com/download/renamer/installer/7.1?token=chocolatey",
+    "url": "http://www.den4b.com/download/renamer/installer/7.1?token=chocolatey#/dl.7z",
     "hash": "c3a18259578204f49bcdd55ffdb0eb8f12d3999b7f3de906d7d1a5998eda1fdc",
     "persist": "Scripts",
     "bin": "ReNamer.exe",
@@ -21,6 +21,6 @@
         "regex": "renamer/portable/(.*)\">"
     },
     "autoupdate": {
-        "url": "http://www.den4b.com/download/renamer/installer/$version?token=chocolatey"
+        "url": "http://www.den4b.com/download/renamer/installer/$version?token=chocolatey#/dl.7z"
     }
 }
