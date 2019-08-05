@@ -10,6 +10,15 @@
     "hash": "ad0297ea90cfacfe62612df306963363eff3b6a229d791dbf1ccfd8bc42216ab",
     "innosetup": true,
     "bin": "Wiz.exe",
+    "post_install": [
+        "$file = $dir + \"\\Wiz.ini\"",
+        "$content = Get-Content $file",
+        "$content = $content.Replace(\"Portable=0\", \"Portable=1\")",
+        "Set-Content $file -Value $content"
+    ],
+    "persist": [
+        "My Knowledge"
+    ],
     "shortcuts": [
         [
             "Wiz.exe",
