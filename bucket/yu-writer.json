@@ -16,13 +16,22 @@
             "hash": "50e8f7457bc591b1393f3ea30696e9c5dbba135da61fd50f7a0144682d048a09"
         }
     },
-    "extract_dir": "Yu Writer",
-    "bin": "Yu Writer.exe",
+    "bin": "Yu Writer\\Yu Writer.exe",
     "shortcuts": [
         [
-            "Yu Writer.exe",
+            "Yu Writer\\Yu Writer.exe",
             "Yu Writer"
         ]
+    ],
+    "post_install": [
+        "$file = \"$dir\\Yu Writer\bootstrap.config\"",
+        "$content = Get-Content $file",
+        "$content = $content.Replace(\"`\"portableMode`\": false\", \"`\"portableMode`\": true\")",
+        "Set-Content $file -Value $content"
+    ],
+    "persist": [
+        "Yu Writer Libraries",
+        "Yu Writer Resources"
     ],
     "checkver": {
         "url": "https://github.com/ivarptr/yu-writer.site/releases",
