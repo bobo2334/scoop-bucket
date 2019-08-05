@@ -6,8 +6,8 @@
         "identifier": "Freeware",
         "url": "http://www.den4b.com/license"
     },
-    "url": "http://www.den4b.com/download/renamer/portable/7.1",
-    "hash": "f81d8eaa55ea19a08a0d5b881a41915e3af3c9694fbfb9518e226686cb0fd8e1",
+    "url": "http://www.den4b.com/download/renamer/installer/7.1?token=chocolatey",
+    "hash": "c3a18259578204f49bcdd55ffdb0eb8f12d3999b7f3de906d7d1a5998eda1fdc",
     "persist": "Scripts",
     "bin": "ReNamer.exe",
     "shortcuts": [
@@ -21,6 +21,6 @@
         "regex": "renamer/portable/(.*)\">"
     },
     "autoupdate": {
-        "url": "http://www.den4b.com/download/renamer/portable/$version"
+        "url": "http://www.den4b.com/download/renamer/installer/$version?token=chocolatey"
     }
 }
