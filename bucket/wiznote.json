@@ -1,0 +1,26 @@
+{
+    "version": "4.11.25",
+    "description": "为知笔记 Windows 版。",
+    "homepage": "http://www.wiz.cn",
+    "license": {
+        "identifier": "Freeware",
+        "url": "http://www.wiz.cn/wiznote-opensource.html"
+    },
+    "url": "http://url.wiz.cn/u/windows#/dl.exe",
+    "hash": "ad0297ea90cfacfe62612df306963363eff3b6a229d791dbf1ccfd8bc42216ab",
+    "innosetup": true,
+    "bin": "Wiz.exe",
+    "shortcuts": [
+        [
+            "Wiz.exe",
+            "为知笔记 Wiz"
+        ]
+    ],
+    "checkver": {
+        "url": "http://www.wiz.cn/downloads-windows.html",
+        "regex": "<h3>(([0-9]|\\.)+)</h3>"
+    },
+    "autoupdate": {
+        "url": "http://url.wiz.cn/u/windows#/dl.exe"
+    }
+}
