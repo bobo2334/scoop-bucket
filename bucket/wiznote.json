@@ -26,8 +26,8 @@
         ]
     ],
     "checkver": {
-        "url": "http://www.wiz.cn/downloads-windows.html",
-        "regex": "<h3>(([0-9]|\\.)+)</h3>"
+        "url": "https://www.wiz.cn/as/blogs/downloads-windows.html?lang=zh-cn&clientType=web&clientVersion=4.0",
+        "regex": "([0-9.]+)\\\\n"
     },
     "autoupdate": {
         "url": "http://url.wiz.cn/u/windows#/dl.exe"
