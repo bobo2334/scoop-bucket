@@ -1,5 +1,5 @@
 {
-    "version": "4.11.25",
+    "version": "4.12.1",
     "description": "为知笔记 Windows 版。",
     "homepage": "http://www.wiz.cn",
     "license": {
@@ -7,7 +7,7 @@
         "url": "http://www.wiz.cn/wiznote-opensource.html"
     },
     "url": "http://url.wiz.cn/u/windows#/dl.exe",
-    "hash": "ad0297ea90cfacfe62612df306963363eff3b6a229d791dbf1ccfd8bc42216ab",
+    "hash": "dec80207523d373345d07aaee2fe16d2e0462506045248a7f566e2c018635a24",
     "innosetup": true,
     "bin": "Wiz.exe",
     "post_install": [
@@ -16,9 +16,7 @@
         "$content = $content.Replace(\"Portable=0\", \"Portable=1\")",
         "Set-Content $file -Value $content"
     ],
-    "persist": [
-        "My Knowledge"
-    ],
+    "persist": "My Knowledge",
     "shortcuts": [
         [
             "Wiz.exe",
