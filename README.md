@@ -1,10 +1,15 @@
-## What is this?
+# My scoop bucket
+
+## What is this
+
 This is a bucket for [scoop](https://github.com/lukesampson/scoop).
 
-## What is scoop?
+## What is scoop
+
 Scoop is command-line installer for Windows, just like `apt-get` or `homebrew`.
 
 ## Usage
+
 To add this bucket to scoop, run:
 
 ```bash
@@ -12,11 +17,13 @@ scoop bucket add bobo2334 https://github.com/bobo2334/scoop-bucket.git
 ```
 
 ## Auto-update manifest
+
 ```bash
 .\bin\checkver -a * -d .\bucket -u
 ```
 
 ## Parameters of checkver.ps1
+
 - `App` (`-a APP`)
 Manifest name to search.
 Placeholders (*) are supported.
