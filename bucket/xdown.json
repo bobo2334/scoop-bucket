@@ -14,9 +14,9 @@
         ]
     ],
     "checkver": {
-        "re": "https://dl.xdown.org/xdown-(?<version>.*).zip\">"
+        "re": "https://dl.xdown.org/xdown-(.*).zip\">"
     },
     "autoupdate": {
-        "url": "https://dl.xdown.org/xdown-$matchVersion.zip"
+        "url": "https://dl.xdown.org/xdown-$version.zip"
     }
 }
