@@ -1,10 +1,10 @@
 {
-    "version": "1.0.1.4",
+    "version": "1.0.2.1",
     "description": "专业的文件下载与分享工具",
     "homepage": "https://xdown.org/",
     "license": "freeware",
-    "url": "https://dl.xdown.org/xdown-1.0.1.4.zip",
-    "hash": "c85ab99786a51c500a6684c9a7def5a2a84fcad43ba8e574ed107bf26ee5cc21",
+    "url": "https://dl.xdown.org/xdown-1.0.2.1.zip",
+    "hash": "fbd7d784c0e597d9acca212589baf5f007a458ec5e672874ad8fb8b32545c400",
     "extract_dir": "xdown",
     "bin": "XDown.exe",
     "shortcuts": [
