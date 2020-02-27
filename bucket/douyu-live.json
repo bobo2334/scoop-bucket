@@ -20,6 +20,6 @@
         "re": "Douyu_Live_PC_Client/(?<date>\\d{17})/DouyuLive_(?<version>[\\d\\.]*).exe"
     },
     "autoupdate": {
-        "url": "https://sta-op.douyucdn.cn/dypc-client/pkg/Douyu_Live_PC_Client/$matchDate/DouyuLive_$matchVersion.exe"
+        "url": "https://sta-op.douyucdn.cn/dypc-client/pkg/Douyu_Live_PC_Client/$matchDate/DouyuLive_$matchVersion.exe#/dl.7z"
     }
 }
