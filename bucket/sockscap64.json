@@ -12,6 +12,10 @@
             "SocksCap64"
         ]
     ],
+    "persist": [
+        "config",
+        "proxy"
+    ],
     "checkver": {
         "github": "https://github.com/bobo2334/sockscap64"
     },
