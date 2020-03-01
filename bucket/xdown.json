@@ -6,7 +6,6 @@
     "url": "https://dl.xdown.org/xdown-1.0.2.9.zip",
     "hash": "0803b9c5393ad26607bffc7247aac02b8fcb3174918d3417e00bdf65a4440856",
     "extract_dir": "xdown",
-    "bin": "XDown.exe",
     "shortcuts": [
         [
             "XDown.exe",

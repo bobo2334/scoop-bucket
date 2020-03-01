@@ -9,7 +9,6 @@
     "url": "https://blz.nosdn.127.net/4/hsoa/install/hsoa.client.v1.7.9.5225.exe#/dl.7z",
     "hash": "040dcd7ca9fbf1359c24635c82d80e83cbae9cee5a14a7114fdd635e9a980758",
     "extract_dir": "$0",
-    "bin": "HearthstoneOfficialAddon.exe",
     "post_install": "Remove-Item -Path \"$dir\\`$0\" -Force -Recurse",
     "shortcuts": [
         [
