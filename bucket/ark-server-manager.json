@@ -5,7 +5,6 @@
     "license": "freeware",
     "url": "https://github.com/Bletch1971/ServerManagers/raw/master/ASM/ArkServerManager_1.0.352.zip",
     "hash": "a30b44ae457ac2a0c957f8599db248c166bd2aa4b14ac0afd5fb23746e6b30b5",
-    "bin": "ARK Server Manager.exe",
     "shortcuts": [
         [
             "ARK Server Manager.exe",

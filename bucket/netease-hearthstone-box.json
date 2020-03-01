@@ -5,7 +5,6 @@
     "license": "Freeware",
     "url": "http://hs.gameyw.netease.com/hsang_down#/dl.7z",
     "hash": "",
-    "bin": "HSAng.exe",
     "installer": {
         "script": [
             "Remove-Item \"$dir\\*\" -Exclude 'hsa.7z' -Recurse",

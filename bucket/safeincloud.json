@@ -9,7 +9,6 @@
     "url": "https://www.safe-in-cloud.com/download/20.0.0/SafeInCloud_Setup.msi",
     "hash": "md5:cac8d3cd04928efcaa81c57abafc7299",
     "extract_dir": "Safe In Cloud",
-    "bin": "SafeInCloud.exe",
     "shortcuts": [
         [
             "SafeInCloud.exe",

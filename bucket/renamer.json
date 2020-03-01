@@ -10,7 +10,6 @@
     "hash": "c3a18259578204f49bcdd55ffdb0eb8f12d3999b7f3de906d7d1a5998eda1fdc",
     "innosetup": true,
     "persist": "Scripts",
-    "bin": "ReNamer.exe",
     "shortcuts": [
         [
             "ReNamer.exe",

@@ -6,7 +6,6 @@
     "url": "https://github.com/HearthSim/HDT-Releases/releases/download/v1.9.11/HearthstoneDeckTracker-1.9.11-full.nupkg#/dl.7z",
     "hash": "sha1:0b8206e54477f5f45e5a89a6ed322e35a469e1fa",
     "extract_dir": "lib\\net45",
-    "bin": "HearthstoneDeckTracker.exe",
     "shortcuts": [
         [
             "HearthstoneDeckTracker.exe",
