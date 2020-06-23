@@ -1,0 +1,24 @@
+{
+    "version": "4.3.37.612",
+    "description": "游戏加加",
+    "homepage": "https://gamepp.com/",
+    "license": {
+        "identifier": "freeware",
+        "url": "https://gamepp.com/download/terms-of-use.html"
+    },
+    "url": "http://dl.gamepp.com/global/GamePP_International.exe#/dl.7z",
+    "hash": "8295b8f586adc3f17dcab04bf6b553ff7495829808d655a5f6b4c384c317a463",
+    "shortcuts": [
+        [
+            "GamePP.exe",
+            "游戏加加"
+        ]
+    ],
+    "checkver": {
+        "url": "https://gamepp.com/download/",
+        "re": "(?<=<em>\\s+V\\s+)([\\d\\.]+)"
+    },
+    "autoupdate": {
+        "url": "http://dl.gamepp.com/global/GamePP_International.exe#/dl.7z"
+    }
+}
