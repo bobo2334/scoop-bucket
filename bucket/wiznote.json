@@ -1,5 +1,5 @@
 {
-    "version": "4.13.5",
+    "version": "400",
     "description": "为知笔记 Windows 版。",
     "homepage": "http://www.wiz.cn",
     "license": {
@@ -7,7 +7,7 @@
         "url": "http://www.wiz.cn/wiznote-opensource.html"
     },
     "url": "http://url.wiz.cn/u/windows#/dl.exe",
-    "hash": "06f6c69806342ba0cb72e6bf330e99810b5a9bbd356eda50fc91399d99073f4e",
+    "hash": "665306a2d04de3732aac787268c280ae51b60ed7461f11a3378bd42941b90a80",
     "innosetup": true,
     "post_install": [
         "$file = \"$dir\\Wiz.ini\"",
