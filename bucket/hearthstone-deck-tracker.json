@@ -5,7 +5,7 @@
     "license": "freeware",
     "url": "https://github.com/HearthSim/HDT-Releases/releases/download/v1.12.12.4017/HearthstoneDeckTracker-1.12.12-full.nupkg#/dl.7z",
     "hash": "sha1:28bcedd20b5e8f2d4530853e75ff4797f5928d5d",
-    "extract_dir": "lib\\net45",
+    "extract_dir": "lib\\net472",
     "shortcuts": [
         [
             "HearthstoneDeckTracker.exe",
