@@ -1,13 +1,13 @@
 {
-    "version": "8.3.4.5",
+    "version": "8.3.6.0",
     "description": "斗鱼PC客户端",
     "homepage": "https://www.douyu.com/client",
     "license": {
         "identifier": "freeware",
         "url": "https://www.douyu.com/protocal/member"
     },
-    "url": "https://sta-op.douyucdn.cn/dypc-client/pkg/Douyu_Live_PC_Client/20200609125825568/DouyuLive_8.3.4.5.exe#/dl.7z",
-    "hash": "e1e928b2b9eae7c10288cb990b090a2b43d133861d4211fda454647f690eae39",
+    "url": "https://sta-op.douyucdn.cn/dypc-client/pkg/Douyu_Live_PC_Client/20200720193507811/DouyuLive_8.3.6.0.exe#/dl.7z",
+    "hash": "9e1224f205b53ecd7c6715e6ecd8eaa6084791be6f2f90bfe92ee203d0844def",
     "extract_dir": "Client",
     "shortcuts": [
         [
