@@ -1,10 +1,10 @@
 {
-    "version": "1.2.1",
+    "version": "1.3.0",
     "description": "Chiaki is a Free and Open Source Software Client for PlayStation 4 Remote Play for Linux, FreeBSD, OpenBSD, Android, macOS, Windows and potentially even more platforms.",
     "homepage": "https://github.com/thestr4ng3r/chiaki",
     "license": "freeware",
-    "url": "https://github.com/thestr4ng3r/chiaki/releases/download/v1.2.1/Chiaki-v1.2.1-Windows-x86_64.zip",
-    "hash": "877f8625b76ae7f7c30fc42b7994ce48f432f91cc78c766ba99a407550ff5103",
+    "url": "https://github.com/thestr4ng3r/chiaki/releases/download/v1.3.0/Chiaki-v1.3.0-Windows-x86_64.zip",
+    "hash": "87563a389e5dac6bdd98d24fa9b16aef5e0854911030419655425e1c4a1b0032",
     "shortcuts": [
         [
             "chiaki.exe",
