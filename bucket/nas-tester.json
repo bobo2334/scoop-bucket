@@ -1,0 +1,20 @@
+{
+    "version": "1.7",
+    "description": "This free utility benchmarks the read and write performance in megabytes per second of network attached storage connected through SMB/CIFS network shares.",
+    "homepage": "http://www.808.dk/?code-csharp-nas-performance",
+    "license": "freeware",
+    "url": "http://www.808.dk/download.asp?filename=NASTester_17.zip",
+    "hash": "cb9469743ce35b4405310962cb43cc8724aa9436a4c0363ccde650430939ad6c",
+    "shortcuts": [
+        [
+            "nastester.exe",
+            "NAS performance tester"
+        ]
+    ],
+    "checkver": {
+        "re": "Download NAS performance tester ([\\d\\.]+)"
+    },
+    "autoupdate": {
+        "url": "http://www.808.dk/download.asp?filename=NASTester_$cleanVersion.zip"
+    }
+}
