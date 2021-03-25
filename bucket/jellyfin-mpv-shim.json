@@ -1,10 +1,10 @@
 {
-    "version": "1.8.1",
+    "version": "1.10.1",
     "description": "Jellyfin MPV Shim is a fully featured, cross-platform desktop and cast client for Jellyfin.",
     "homepage": "https://github.com/iwalton3/jellyfin-mpv-shim",
     "license": "MIT",
-    "url": "https://github.com/iwalton3/jellyfin-mpv-shim/releases/download/v1.8.1/jellyfin-mpv-desktop_1.8.1_installer.exe",
-    "hash": "e9b444639f250fe0c5a1c15ecde4064fcff9f9a4e9ab1a7fc86536b0317be5aa",
+    "url": "https://github.com/iwalton3/jellyfin-mpv-shim/releases/download/v1.10.1/jellyfin-mpv-desktop_1.10.1_installer.exe",
+    "hash": "0e28c7748cc6ee1db01574d319de32347ddf3b1d8ba46a29ca84eaec728330ce",
     "innosetup": true,
     "shortcuts": [
         [
