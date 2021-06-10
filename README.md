@@ -51,7 +51,7 @@ Usually used with -u to update to a certain version.
 
 ## 致谢
 
-从这些仓库中超了一些作业，非常感谢。
+从这些仓库中抄了一些作业，非常感谢。
 
 - [lukesampson/scoop: A command-line installer for Windows.](https://github.com/lukesampson/scoop)
 - [chawyehsu/dorado: 🐟 Yet Another bucket for lovely Scoop](https://github.com/chawyehsu/dorado)
