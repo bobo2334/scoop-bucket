@@ -13,6 +13,7 @@
             "hash": "95fdf8b8169dd3b49b87245a72adb57f8525164a894ace3a6ae3726dcb8cb64a"
         }
     },
+    "bin": "chfs.exe",
     "checkver": {
         "re": ">chfs-windows-.+-(?<version>[\\d\\.]+).zip"
     },
