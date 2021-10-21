@@ -1,13 +1,13 @@
 {
-    "version": "1.10.61.8706",
+    "version": "1.10.65.8726",
     "description": "Hearthstone Offcial Addon",
     "homepage": "http://hs.blizzard.cn/hsoa/",
     "license": {
         "identifier": "freeware",
         "url": "https://www.battlenet.com.cn/zh/legal-cn/eula"
     },
-    "url": "https://blz.nosdn.127.net/4/hsoa/install/hsoa.client.v1.10.61.8706.exe#/dl.7z",
-    "hash": "2d0760310452275e9de46bf381b2394f67485de749addc5d266b6cb46697c6be",
+    "url": "https://blz.nosdn.127.net/4/hsoa/install/hsoa.client.v1.10.65.8726.exe#/dl.7z",
+    "hash": "6c1f0b4fc19a26bdd1203c87e57afb039c5fc8e0e0a4e90649d7ce85368ef3ad",
     "extract_dir": "$0",
     "post_install": "Remove-Item -Path \"$dir\\`$0\" -Force -Recurse",
     "shortcuts": [
