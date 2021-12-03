@@ -1,5 +1,5 @@
 {
-    "version": "5.3.958.1119",
+    "version": "5.3.978.1201",
     "description": "游戏加加",
     "homepage": "https://gamepp.com/",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://gamepp.com/download/terms-of-use.html"
     },
     "url": "http://dl.gamepp.com/global/GamePP_International.exe#/dl.7z",
-    "hash": "a0978c0060a6c89ad72bf99877ad3678b3b481806690eafc684c87db27cee1d4",
+    "hash": "a6ba4c58ca24aab3cf19fb34a7891722927756c432999933779ccda0ee20bba1",
     "shortcuts": [
         [
             "GamePP.exe",
