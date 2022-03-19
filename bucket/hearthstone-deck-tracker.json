@@ -1,10 +1,10 @@
 {
-    "version": "1.17.8",
+    "version": "1.17.9",
     "description": "Hearthstone Deck Tracker is a free app to help you play like the pros.",
     "homepage": "https://hsreplay.net/downloads/",
     "license": "freeware",
-    "url": "https://github.com/HearthSim/HDT-Releases/releases/download/v1.17.8/HearthstoneDeckTracker-1.17.8-full.nupkg#/dl.7z",
-    "hash": "sha1:9066df63ae8c2c0408f23bbac45e6499aaebb701",
+    "url": "https://github.com/HearthSim/HDT-Releases/releases/download/v1.17.9/HearthstoneDeckTracker-1.17.9-full.nupkg#/dl.7z",
+    "hash": "sha1:dfe2e610a1077d0dafa396601673e2ecf65f6d55",
     "extract_dir": "lib\\net472",
     "shortcuts": [
         [
