@@ -1,10 +1,10 @@
 {
-    "version": "1.1.425",
+    "version": "1.1.426",
     "description": "ASM makes it easy to setup and manage your ARK: Survival Evolved™ dedicated servers.",
     "homepage": "http://arkservermanager.freeforums.net/",
     "license": "freeware",
-    "url": "https://github.com/Bletch1971/ServerManagers/raw/master/ASM/ArkServerManager_1.1.425.zip",
-    "hash": "67712310e743a4ca1f82d2a66d5874904525f811e635d750ed0cde7425a8a3ce",
+    "url": "https://github.com/Bletch1971/ServerManagers/raw/master/ASM/ArkServerManager_1.1.426.zip",
+    "hash": "e0fd82f0cbaea22ad7c1c2994c36266e4a1ff1dfc8700909235db90a3a2427da",
     "shortcuts": [
         [
             "ARK Server Manager.exe",
