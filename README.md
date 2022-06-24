@@ -2,8 +2,6 @@
 
 [![Excavator](https://github.com/bobo2334/scoop-bucket/actions/workflows/schedule.yml/badge.svg)](https://github.com/bobo2334/scoop-bucket/actions/workflows/schedule.yml)
 
-[![Build status](https://ci.appveyor.com/api/projects/status/pkvy7f6o1kq0nvst?svg=true)](https://ci.appveyor.com/project/bobo2334/scoop-bucket)
-
 ## 这是啥
 
 这是一个 [Scoop](https://github.com/lukesampson/scoop) 的 Bucket，主要用来存放一些我需要的但是不在 Scoop 官方仓库里存在的软件安装脚本。
