@@ -1,13 +1,13 @@
 {
-    "version": "22.2.5",
+    "version": "22.2.6",
     "description": "SafeInCloud Password Manager.",
     "homepage": "http://www.safe-in-cloud.com/",
     "license": {
         "identifier": "Freeware",
         "url": "http://www.safe-in-cloud.com/en/license.html"
     },
-    "url": "https://www.safe-in-cloud.com/download/22.2.5/SafeInCloud_Setup.msi",
-    "hash": "md5:d5c26d3d4a17caa44e7a604ea2290448",
+    "url": "https://www.safe-in-cloud.com/download/22.2.6/SafeInCloud_Setup.msi",
+    "hash": "md5:10e2072da20b88c8cf05921b505353b5",
     "extract_dir": "Safe In Cloud",
     "shortcuts": [
         [
