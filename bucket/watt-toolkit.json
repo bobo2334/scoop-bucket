@@ -1,6 +1,6 @@
 {
     "version": "2.8.4",
-    "description": "Watt Toolkit (Former name Steam++) is an open source cross-platform multi-purpose game toolkit, most of its features require you to download and install Steam to use it.",
+    "description": "Watt Toolkit (former name Steam++) is an open source cross-platform multi-purpose game toolkit, most of its features require you to download and install Steam to use it.",
     "homepage": "https://steampp.net/",
     "license": "GPL-3.0-only",
     "architecture": {
