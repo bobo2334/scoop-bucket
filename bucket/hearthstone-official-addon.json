@@ -18,7 +18,7 @@
     ],
     "checkver": {
         "url": "https://blz.nosdn.127.net/4/hsoa/install/hsoa-download.json",
-        "re": "hsoa.client.v(.*).exe"
+        "regex": "hsoa.client.v(.*).exe"
     },
     "autoupdate": {
         "url": "https://blz.nosdn.127.net/4/hsoa/install/hsoa.client.v$version.exe#/dl.7z"

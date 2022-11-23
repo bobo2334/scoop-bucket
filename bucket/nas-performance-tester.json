@@ -13,7 +13,7 @@
         ]
     ],
     "checkver": {
-        "re": "Download NAS performance tester ([\\d\\.]+)"
+        "regex": "Download NAS performance tester ([\\d\\.]+)"
     },
     "autoupdate": {
         "url": "http://www.808.dk/download.asp?filename=NASTester_$cleanVersion.zip#/dl.zip",

@@ -17,7 +17,7 @@
     ],
     "checkver": {
         "url": "http://www.safe-in-cloud.com/download/SafeInCloud_Updates.xml",
-        "re": "download/(.*)/SafeInCloud_Setup"
+        "regex": "download/(.*)/SafeInCloud_Setup"
     },
     "autoupdate": {
         "url": "https://www.safe-in-cloud.com/download/$version/SafeInCloud_Setup.msi",
