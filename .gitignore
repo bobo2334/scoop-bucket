@@ -1,7 +1,0 @@
-examples
-test
-node_modules
-*.lock
-*.log
-*~
-._*
