@@ -15,7 +15,7 @@
     },
     "bin": "chfs.exe",
     "checkver": {
-        "re": ">chfs-windows-.+-(?<version>[\\d\\.]+).zip"
+        "regex": ">chfs-windows-.+-(?<version>[\\d\\.]+).zip"
     },
     "autoupdate": {
         "architecture": {

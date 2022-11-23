@@ -13,7 +13,7 @@
         ]
     ],
     "checkver": {
-        "re": "<dl>\\s*<dt>(.*)\\("
+        "regex": "<dl>\\s*<dt>(.*)\\("
     },
     "autoupdate": {
         "url": "http://deerchao.net/tools/regester/regester.zip"
