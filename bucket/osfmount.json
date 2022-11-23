@@ -5,7 +5,7 @@
     "license": "Freeware",
     "url": "https://www.osforensics.com/downloads/osfmount.exe",
     "hash": "fd4012a9df1e1fcd93e473e4498e51d19a2afd9379cd657db1cc023e3c0dc7d6",
-    "installer":{
+    "installer": {
         "script": [
             "Invoke-Expression \"innounp.exe -x -d$dir $dir\\osfmount.exe\"",
             "Copy-Item -Path \"$dir\\{app}\\*\" -Destination \"$dir\" -Recurse",
