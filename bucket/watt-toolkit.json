@@ -28,14 +28,14 @@
                 "url": "https://github.com/BeyondDimension/SteamTools/releases/download/$version/Steam++_win_x86_v$version.7z",
                 "hash": {
                     "url": "https://github.com/BeyondDimension/SteamTools/releases/tag/$version",
-                    "find": "win_x86_v[\\.\\d]+\\.7z.*\\n.*<sub>(\\w{64})<\\/sub>"
+                    "find": "win_x86_v[\\d\\.]+\\.7z[\\s\\S]+?<sub>(\\w{64})<\\/sub>"
                 }
             },
             "64bit": {
                 "url": "https://github.com/BeyondDimension/SteamTools/releases/download/$version/Steam++_win_x64_v$version.7z",
                 "hash": {
                     "url": "https://github.com/BeyondDimension/SteamTools/releases/tag/$version",
-                    "find": "win_x64_v[\\.\\d]+\\.7z.*\\n.*<sub>(\\w{64})<\\/sub>"
+                    "find": "win_x64_v[\\d\\.]+\\.7z[\\s\\S]+?<sub>(\\w{64})<\\/sub>"
                 }
             }
         }
