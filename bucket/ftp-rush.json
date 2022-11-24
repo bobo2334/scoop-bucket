@@ -5,6 +5,7 @@
     "license": "Freeware",
     "url": "https://www.wftpserver.com/download/FTPRush.zip",
     "hash": "df4b903c5973e465a523bbe0d4718eb53a9a5ca36f72d176d423abcccc84edf5",
+    "extract_dir": "FTPRush",
     "shortcuts": [
         [
             "FTPRush.exe",
