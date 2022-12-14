@@ -1,10 +1,10 @@
 {
-    "version": "3680832204",
+    "version": "3688322507",
     "description": "Free Form Data Organizer",
     "homepage": "https://strlen.com/treesheets/",
     "license": "Zlib",
-    "url": "https://github.com/aardappel/treesheets/releases/download/3680832204/Treesheets_Setup.exe#/dl.7z",
-    "hash": "77fdb2d0770cb7f14eb49247e3ad3f8b30941486144f3807361c3e106edaf0c2",
+    "url": "https://github.com/aardappel/treesheets/releases/download/3688322507/Treesheets_Setup.exe#/dl.7z",
+    "hash": "6e68eda4ddf6a72c4ff5ead4b538139446fb72a892c6e9748640784401bc2be1",
     "shortcuts": [
         [
             "TreeSheets.exe",
