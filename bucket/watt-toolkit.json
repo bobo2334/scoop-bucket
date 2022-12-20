@@ -1,16 +1,16 @@
 {
-    "version": "2.8.5",
+    "version": "2.8.6",
     "description": "Watt Toolkit (former name Steam++) is an open source cross-platform multi-purpose game toolkit, most of its features require you to download and install Steam to use it.",
     "homepage": "https://steampp.net/",
     "license": "GPL-3.0-only",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/BeyondDimension/SteamTools/releases/download/2.8.5/Steam++_win_x86_v2.8.5.7z",
-            "hash": "4aaec829fea3449c9a9a84ebddf6158804eb8a21db631e42174738607391eb8a"
+            "url": "https://github.com/BeyondDimension/SteamTools/releases/download/2.8.6/Steam++_win_x86_v2.8.6.7z",
+            "hash": "80df3e7cbccc7b7a606ab71ba63333ced8e162dd80094b06b87f21398bd2e905"
         },
         "64bit": {
-            "url": "https://github.com/BeyondDimension/SteamTools/releases/download/2.8.5/Steam++_win_x64_v2.8.5.7z",
-            "hash": "839923d91d354b786880bfe6d7c4a0216843a1abaf472191e58954012befaad4"
+            "url": "https://github.com/BeyondDimension/SteamTools/releases/download/2.8.6/Steam++_win_x64_v2.8.6.7z",
+            "hash": "9c31e5241ebdd9747ec185f7c34c104a6382c8303d739cecb5904e7a2d01ed2a"
         }
     },
     "shortcuts": [
