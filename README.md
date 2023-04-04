@@ -18,7 +18,7 @@ Scoop 的优点是方便、灵活度高。安装的软件大多都是绿色版�
 
 通过下面的命令来添加这个 Bucket。
 
-```bash
+```powershell
 scoop bucket add bobo2334 https://github.com/bobo2334/scoop-bucket.git
 ```
 
@@ -26,7 +26,7 @@ scoop bucket add bobo2334 https://github.com/bobo2334/scoop-bucket.git
 
 ### 更新软件
 
-```bash
+```powershell
 # 更新全部软件
 pwsh .\bin\checkver.ps1 -a * -u
 
@@ -36,19 +36,19 @@ pwsh .\bin\checkver.ps1 -a apk-info -u
 
 ### 格式化 JSON 文件
 
-```bash
+```powershell
 pwsh .\bin\formatjson.ps1
 ```
 
 ### 检查下载链接
 
-```bash
+```powershell
 pwsh .\bin\checkurls.ps1
 ```
 
 ### 检查文件 Hash 是否匹配
 
-```bash
+```powershell
 pwsh .\bin\checkhashes.ps1
 ```
 
