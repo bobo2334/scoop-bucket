@@ -1,7 +1,6 @@
 on:
   workflow_dispatch:
   schedule:
-    # run every 4 hours
     - cron: '27 0 * * *'
 name: Excavator
 jobs:
