@@ -1,10 +1,10 @@
 # 我的 Scoop Bucket
 
-[![Excavator](https://github.com/bobo2334/scoop-bucket/actions/workflows/schedule.yml/badge.svg)](https://github.com/bobo2334/scoop-bucket/actions/workflows/schedule.yml)
+[![Excavator](https://github.com/bobo2334/scoop-bucket/actions/workflows/excavator.yml/badge.svg)](https://github.com/bobo2334/scoop-bucket/actions/workflows/excavator.yml)
 
 ## 这是啥
 
-这是一个 [Scoop](https://github.com/lukesampson/scoop) 的 Bucket，主要用来存放一些我需要的但是不在 Scoop 官方仓库里存在的软件安装脚本。
+这是一个 [Scoop](https://scoop.sh/) 的 Bucket，主要用来存放一些我需要的但是不在 Scoop 官方仓库里存在的软件安装脚本。
 
 ## Scoop 是啥
 
@@ -32,6 +32,9 @@ pwsh .\bin\checkver.ps1 -a * -u
 
 # 更新某个软件
 pwsh .\bin\checkver.ps1 -a apk-info -u
+
+# 强制更新
+pwsh .\bin\checkver.ps1 -a apk-info -u -f
 ```
 
 ### 格式化 JSON 文件
@@ -73,6 +76,5 @@ pwsh .\bin\checkhashes.ps1
 
 从这些仓库中抄了一些作业，非常感谢。
 
-- [lukesampson/scoop: A command-line installer for Windows.](https://github.com/lukesampson/scoop)
-- [ScoopInstaller/Extras: 📦 The Extras bucket for Scoop.](https://github.com/ScoopInstaller/Extras)
+- [ScoopInstaller/BucketTemplate: Template Bucket for Scoop Installer](https://github.com/ScoopInstaller/BucketTemplate)
 - [chawyehsu/dorado: 🐟 Yet Another bucket for lovely Scoop](https://github.com/chawyehsu/dorado)
