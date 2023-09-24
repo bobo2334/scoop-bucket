@@ -1,6 +1,6 @@
 # 我的 Scoop Bucket
 
-[![Excavator](https://github.com/bobo2334/scoop-bucket/actions/workflows/excavator.yml/badge.svg)](https://github.com/bobo2334/scoop-bucket/actions/workflows/excavator.yml)
+[![自动更新任务](https://github.com/bobo2334/scoop-bucket/actions/workflows/excavator.yml/badge.svg)](https://github.com/bobo2334/scoop-bucket/actions/workflows/excavator.yml)
 
 ## 这是啥
 
