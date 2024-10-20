@@ -1,13 +1,13 @@
 {
-    "version": "24.10.0",
+    "version": "24.14.1",
     "description": "SafeInCloud Password Manager.",
     "homepage": "http://www.safe-in-cloud.com/",
     "license": {
         "identifier": "Freeware",
         "url": "http://www.safe-in-cloud.com/en/license.html"
     },
-    "url": "https://www.safe-in-cloud.com/download/24.10.0/SafeInCloud_Setup.msi",
-    "hash": "md5:2943828c27e06dec540fdea867ddce43",
+    "url": "https://www.safe-in-cloud.com/download/24.14.1/SafeInCloud_Setup.msi",
+    "hash": "md5:9d2205952ea45f12791acc7436e6fbef",
     "extract_dir": "Safe In Cloud",
     "shortcuts": [
         [
