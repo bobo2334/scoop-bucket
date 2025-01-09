@@ -15,12 +15,5 @@
     "persist": [
         "config",
         "proxy"
-    ],
-    "checkver": {
-        "github": "https://github.com/bobo2334/sockscap64"
-    },
-    "autoupdate": {
-        "url": "https://github.com/bobo2334/sockscap64/releases/download/$version/SocksCap64-Portable-$version.7z",
-        "extract_dir": "SocksCap64-$version"
-    }
+    ]
 }
